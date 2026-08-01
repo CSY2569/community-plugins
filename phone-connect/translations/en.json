@@ -77,7 +77,7 @@
       "description": "Display language",
       "en": "English",
       "label": "Language",
-      "zh_hans": "简体中文"
+      "zh-Hans": "简体中文"
     },
     "max_recent_images": {
       "description": "Number of recent images to display.",
