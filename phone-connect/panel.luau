@@ -167,7 +167,12 @@ local function rightColumn(d)
 		table.insert(btns, vActionBtn(t("action.unpair"), "link-off",
 			function() sendCmd({ op = "unpair", device = d.id }) end, "ghost"))
 	end
-	return ui.column({ width = 110, gap = 8, padding = 8, align = "stretch" }, btns)
+	-- Wrap buttons in a scroll so a tall action stack (e.g. clipboard enabled
+	-- = 7 buttons) cannot force the middle row past the panel height and push
+	-- the device switcher out of view (#294). Mirrors leftColumn's scroll.
+	return ui.column({ width = 110 }, {
+		ui.scroll({ flexGrow = 1, gap = 8, padding = 8, align = "stretch" }, btns),
+	})
 end
 
 -- ── Left column: media + SMS (scrollable) ──────────────────────────────────

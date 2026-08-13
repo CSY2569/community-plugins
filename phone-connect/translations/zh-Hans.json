@@ -68,6 +68,18 @@
       "description": "设备充电时高亮显示栏部件。",
       "label": "充电高亮"
     },
+    "battery_display": {
+      "description": "选择栏部件显示电池图标、百分比、两者或都不显示。",
+      "icon_and_percent": "图标和百分比",
+      "percent": "仅百分比",
+      "icon": "仅图标",
+      "hidden": "隐藏",
+      "label": "电池显示"
+    },
+    "show_device_name": {
+      "description": "在栏部件中显示选中设备的名称或别名。",
+      "label": "显示设备名称"
+    },
     "enable_clipboard_action": {
       "description": "显示一键发送剪贴板到设备的快捷操作。",
       "label": "显示剪贴板操作"
