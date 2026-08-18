@@ -529,8 +529,8 @@ rev = "ff289e523fb3dca794979dd3476d336642296463"
 [[plugin]]
 id = "kenn/keybind-cheatsheet"
 name = "Keybind Cheatsheet"
-version = "0.2.1"
-updated_at = 1784947118
+version = "0.2.2"
+updated_at = 1787015428
 added_at = 1784677847
 author = "kenn"
 license = "MIT"
@@ -670,8 +670,8 @@ tags = ["launcher", "privacy", "productivity", "utility"]
 [[plugin]]
 id = "tadomika_ari/w-engine"
 name = "W Engine"
-version = "1.2.0"
-updated_at = 1786155862
+version = "1.3.0"
+updated_at = 1787014958
 added_at = 1785025372
 author = "TadomiKa-Ari"
 license = "MIT"
@@ -906,8 +906,8 @@ tags = ["bar", "panel", "service", "media"]
 [[plugin]]
 id = "nilsonlinux/rss-notifier"
 name = "RSS/Atom Notifier"
-version = "1.0.2"
-updated_at = 1786025782
+version = "1.0.3"
+updated_at = 1787015298
 added_at = 1785462185
 author = "Nilsonlinux"
 license = "MIT"
@@ -1449,8 +1449,8 @@ tags = ["bar", "niri", "panel", "service", "system", "utility"]
 [[plugin]]
 id = "felipeartur/ai-usagebar"
 name = "AI Usage"
-version = "1.0.0"
-updated_at = 1786903781
+version = "1.1.0"
+updated_at = 1787016147
 added_at = 1786903781
 author = "felipeartur"
 license = "MIT"
@@ -1510,3 +1510,55 @@ icon = "brand-git"
 description = "Monitor your git repositories from the Noctalia bar. See your current PRs/MRs and issues at a glance."
 plugin_api = 23
 tags = ["development", "bar", "panel", "service", "productivity"]
+
+[[plugin]]
+id = "piero-93/battery-power-management"
+name = "Battery & Power Management"
+version = "1.0.0"
+updated_at = 1786969595
+added_at = 1786969595
+author = "piero-93"
+license = "GPL-3.0"
+icon = "battery-charging"
+description = "Battery widget with live power draw, power-profile switching, and charge-limit control — no root at runtime."
+plugin_api = 3
+tags = ["bar", "panel", "system", "hardware", "indicator", "utility"]
+
+[[plugin]]
+id = "piero-93/thinkpad-fan"
+name = "ThinkPad Fan & Thermal Control"
+version = "1.0.0"
+updated_at = 1786969843
+added_at = 1786969843
+author = "piero-93"
+license = "GPL-3.0"
+icon = "car-fan"
+description = "ThinkPad fan speed monitor and manual level control with temperature readout — no root at runtime."
+plugin_api = 3
+tags = ["bar", "panel", "system", "hardware", "indicator", "utility"]
+
+[[plugin]]
+id = "raycursive/discord-voice"
+name = "Discord Voice"
+version = "0.3.2"
+updated_at = 1786971293
+added_at = 1786971293
+author = "raycursive"
+license = "MIT"
+icon = "brand-discord"
+description = "Monitor and control local Discord voice sessions, including participants, volume, speaking, and latency."
+plugin_api = 9
+tags = ["audio", "bar", "network", "panel", "privacy", "service"]
+
+[[plugin]]
+id = "mdj2812/thunderbird-companion"
+name = "Thunderbird Companion"
+version = "0.1.0"
+updated_at = 1787016139
+added_at = 1787016139
+author = "mdj2812"
+license = "MIT"
+icon = "mail"
+description = "Shows Thunderbird unread mail in Noctalia with recent-message actions through a local companion bridge."
+plugin_api = 9
+tags = ["bar", "panel", "service", "productivity", "utility"]

@@ -32,6 +32,7 @@ body:
         - arch-updater
         - audio-switcher
         - battery-graph
+        - battery-power-management
         - battery-threshold
         - battery-widget
         - bazaarsearch
@@ -44,6 +45,7 @@ body:
         - config-swap
         - daily-wallpaper
         - deepseek_usage
+        - discord-voice
         - dns-switcher
         - drive-health
         - dropwall
@@ -115,7 +117,9 @@ body:
         - system-updater
         - tailnet
         - tailscale
+        - thinkpad-fan
         - thinkpad-led
+        - thunderbird-companion
         - tmux-provider
         - todo
         - topgrade-wrapper
